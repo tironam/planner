@@ -14,7 +14,7 @@ for (let i = 0; i < timeArr.length; i++) {
                 <input type="text" id="input9" class="form-control" placeholder="" 
                 aria-describedby="button-addon2">
                 <div class="input-group-append">
-                <button class="btn btn-outline-secondary btn-info" type="saveBtn" id="button-addon2">Button</button>
+                <button class="btn btn-outline-secondary btn-info" type="saveBtn" id="button-addon2">Save</button>
                 </div>
             </div>
             </td>
