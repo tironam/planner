@@ -3,8 +3,8 @@ let timeArr = ['9:00', '10:00', '11:00', '12:00', '1:00', '2:00', '3:00', '4:00'
 // To cycle through the time array
 for (let i = 0; i < timeArr.length; i++) {
     // console.log(timeArr[i])
-    let hourSlot = $('<div>')
-    hourSlot.html = `
+    let hourSlot = document.createElement('div')
+    hourSlot.innerHTML = `
         <tr>
             <th scope="row">${timeArr[i]}</th>
             <td colspan = "3">
@@ -18,5 +18,5 @@ for (let i = 0; i < timeArr.length; i++) {
             </td>
         </tr>
     `
-    $('#hourRow').append()
+    document.getElementById('hourRow').append(hourSlot)
 }
