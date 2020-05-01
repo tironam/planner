@@ -97,9 +97,14 @@ textarea {
   color: white;
 }
 
-.input-group {
+/* .input-group {
   background-color: lightblue;
   padding: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+} */
+
+.timeArr {
+  background-color: lightblue;
+  width: 15px;
 }

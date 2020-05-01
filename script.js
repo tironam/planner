@@ -8,9 +8,9 @@ for (let i = 0; i < timeArr.length; i++) {
     let hourSlot = document.createElement('div')
     hourSlot.innerHTML = `
         <tr>
-            <th scope="row">${timeArr[i]}</th>
             <td colspan = "3">
             <div class="input-group mb-3 input-group-lg">
+            <th scope="row" class="timeArr">${timeArr[i]}</th>
                 <input type="text" id="input9" class="form-control" placeholder="" 
                 aria-describedby="button-addon2">
                 <div class="input-group-append">
