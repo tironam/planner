@@ -79,3 +79,12 @@ textarea{
 .table {
   height: 500px;
 }
+
+.form-control {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-info {
+  color: white;
+}
