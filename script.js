@@ -1,5 +1,7 @@
 let timeArr = ['9:00', '10:00', '11:00', '12:00', '1:00', '2:00', '3:00', '4:00', '5:00']
 
+document.getElementById('currentDay').innerHTML = moment().format('dddd Do MMMM, YYYY')
+
 // To cycle through the time array
 for (let i = 0; i < timeArr.length; i++) {
     // console.log(timeArr[i])
